@@ -59,6 +59,7 @@ public enum LanguageKeys {
     MESSAGE_LOGIN("messageLogin"),
     MESSAGE_REGISTER("messageRegister"),
     MESSAGE_REGISTER2("messageRegister2"),
+    MESSAGE_REGISTRATION_DISABLED("messageRegistrationDisabled"),
     /**
      * Errors
      */

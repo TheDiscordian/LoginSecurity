@@ -36,7 +36,7 @@ public class CommandRegister extends Command {
 
         LoginSecurityConfig config = LoginSecurity.getConfiguration();
         if(!config.isRegistrationEnabled()) {
-            player.sendMessage(ChatColor.translateAlternateColorCodes('&', config.getRegistrationDisabledMessage()));
+            reply(false, translate(MESSAGE_REGISTRATION_DISABLED));
             return;
         }
 
